@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Aisha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "aisha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in freshman year of university. We studied computer science together and used to pull all-nighters before exams. She moved to Toronto after graduation.",
+    "goal": 14,
+    "next_due_date": "2025-07-14"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Thompson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "marcus.t@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["work", "mentor"],
+    "bio": "My former team lead at the startup I worked at in 2022. He taught me a lot about system design and always pushes me to think bigger.",
+    "goal": 30,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 3,
+    "name": "Sofia Hernandez",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sofia.hernandez@yahoo.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["childhood", "family friend"],
+    "bio": "Grew up on the same street. Our families used to celebrate Eid and Christmas together. She's now a nurse in London.",
+    "goal": 14,
+    "next_due_date": "2025-07-17"
+  },
+  {
+    "id": 4,
+    "name": "Daniel Park",
+    "picture": "https://randomuser.me/api/portraits/men/57.jpg",
+    "email": "d.park.dev@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["tech community", "gym buddy"],
+    "bio": "Met at a local developer meetup in 2023. We started going to the gym together on weekends and built a side project that never launched.",
+    "goal": 21,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 5,
+    "name": "Priya Nair",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "priya.nair.design@gmail.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["college", "creative"],
+    "bio": "We were in the same design elective in university. She's a UX designer now and has incredible taste. I always ask her to review my side project UIs.",
+    "goal": 21,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 6,
+    "name": "James Okafor",
+    "picture": "https://randomuser.me/api/portraits/men/14.jpg",
+    "email": "james.okafor@proton.me",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["travel", "close friend"],
+    "bio": "Met backpacking through Southeast Asia in 2021. We ended up traveling together for three weeks. He lives in Lagos and we catch up over video calls.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 7,
+    "name": "Lena Fischer",
+    "picture": "https://randomuser.me/api/portraits/women/55.jpg",
+    "email": "lena.fischer.berlin@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["work", "language exchange"],
+    "bio": "We met through a language exchange app — she was learning English and I was learning German. We ended up working together remotely on a freelance project.",
+    "goal": 30,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 8,
+    "name": "Tariq Hussain",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "tariq.h@hotmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["family friend", "long-distance"],
+    "bio": "Our fathers were close friends. We grew up attending the same mosque and community events. He moved to Dubai for work and we rarely find the time to talk.",
+    "goal": 30,
+    "next_due_date": "2025-06-28"
+  }
+]
