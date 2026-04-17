@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className='shadow'>
            <div className='flex justify-between items-center bg-white shadow py-[8px] container mx-auto'>
              <img src={logo} alt="" />
-            <ul className='flex gap-3'>
+            <ul className='flex gap-3 rounded-lg p-3'>
                 <li>
                   <MyNavlink to={'/'}>Home</MyNavlink>
                 </li>
