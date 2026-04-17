@@ -26,13 +26,15 @@ const CardDetails = () => {
     };
 
     const savedTimeline = JSON.parse(localStorage.getItem('timeline') || '[]');
+    
     localStorage.setItem('timeline', JSON.stringify([newActivity, ...savedTimeline]));
 
     
     window.dispatchEvent(new Event('storage_updated'));
 
     alert(`${type} added to timeline!`);
-    toast.success(`${type} added to timeline!`);
+
+    toast.success(` added to timeline!`);
 };
 
     return (
