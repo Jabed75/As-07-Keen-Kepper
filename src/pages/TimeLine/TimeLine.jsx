@@ -29,6 +29,14 @@ const TimeLine = () => {
     return (
         <div className="max-w-2xl mx-auto p-6 bg-white min-h-screen">
             <h1 className="text-2xl font-bold mb-8  pb-4 text-slate-800 ">Timeline Activity</h1>
+
+            <details className="dropdown">
+  <summary className="btn m-1">Filter Time line</summary>
+  <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>Text 1</a></li>
+    <li><a>Text 2</a></li>
+  </ul>
+</details>
             
             
             <div className="flex flex-col gap-4">

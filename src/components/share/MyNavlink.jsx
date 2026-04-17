@@ -5,7 +5,7 @@ const MyNavlink = ({to, className, children}) => {
     return (
          <NavLink to={to} 
                             className={({isActive})=>{
-                                return`font-semibold pb-2 ${className} ${isActive ? 'bg-[#244D3F] text-purple-500 border-b border-purple-500': ""}`
+                                return`font-semibold pb-2 ${className} ${isActive ? 'bg-[#244D3F] text-white border-b border-purple-500': ""}`
                             }}>{children}</NavLink>
     );
 };
