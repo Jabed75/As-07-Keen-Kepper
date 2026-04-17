@@ -13,21 +13,21 @@ const Navbar = () => {
              <img src={logo} alt="" />
             <ul className='flex gap-4 rounded-lg p-3'>
                 <li>
-                  <MyNavlink to={'/'} className='flex items-center'>
+                  <MyNavlink to={'/'} className='flex items-center px-5 py-2.5 rounded-lg'>
                   <RiHome6Line />
                   <span className='text-xl'>Home</span>
                   </MyNavlink>
                 </li>
                <li>
-                 <MyNavlink  to='/timeline'  className='flex items-center '>
+                 <MyNavlink  to='/timeline'  className='flex items-center px-5 py-2.5 rounded-lg'>
                  <CiAlarmOn />
                <span className='text-xl'>TimeLine</span>
            </MyNavlink>
              </li>
                 <li>
-                    <MyNavlink to={'/stats'} className='flex items-center'>
+                    <MyNavlink to={'/stats'} className='flex items-center px-5 py-2.5 rounded-lg'>
                     <ImStatsDots />
-                    <span className='text-xl'> Stats</span>
+                    <span className='text-xl '> Stats</span>
                    </MyNavlink>
                 </li>
             </ul>
