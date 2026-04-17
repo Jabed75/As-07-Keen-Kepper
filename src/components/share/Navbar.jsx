@@ -1,22 +1,34 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
-import { Link, NavLink } from 'react-router';
+
 import MyNavlink from './MyNavlink';
+import { CiAlarmOn } from "react-icons/ci";
+import { RiHome6Line } from 'react-icons/ri';
+import { ImStatsDots } from 'react-icons/im';
 
 const Navbar = () => {
     return (
         <nav className='shadow'>
            <div className='flex justify-between items-center bg-white shadow py-[8px] container mx-auto'>
              <img src={logo} alt="" />
-            <ul className='flex gap-3 rounded-lg p-3'>
+            <ul className='flex gap-4 rounded-lg p-3'>
                 <li>
-                  <MyNavlink to={'/'}>Home</MyNavlink>
+                  <MyNavlink to={'/'} className='flex items-center'>
+                  <RiHome6Line />
+                  <span className='text-xl'>Home</span>
+                  </MyNavlink>
                 </li>
+               <li>
+                 <MyNavlink  to='/timeline'  className='flex items-center '>
+                 <CiAlarmOn />
+               <span className='text-xl'>TimeLine</span>
+           </MyNavlink>
+             </li>
                 <li>
-                    <MyNavlink to={'/timeline'} className={''}>TimeLine</MyNavlink>
-                </li>
-                <li>
-                    <MyNavlink to={'/stats'}>Stats</MyNavlink>
+                    <MyNavlink to={'/stats'} className='flex items-center'>
+                    <ImStatsDots />
+                    <span className='text-xl'> Stats</span>
+                   </MyNavlink>
                 </li>
             </ul>
            </div>
