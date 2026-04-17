@@ -1,6 +1,7 @@
 import React, { use } from 'react';
 import { useParams } from 'react-router';
 import { Phone, MessageSquare, Video, Clock, Trash2 } from 'lucide-react'; 
+import { toast } from 'react-toastify';
 
 const FriendsPromise = fetch('/friend.json')
 .then((res) => res.json());
@@ -19,7 +20,9 @@ const CardDetails = () => {
         person: friend.name,
         date: new Date().toLocaleDateString('en-US', { 
             month: 'long', day: 'numeric', year: 'numeric' 
+            
         }),
+        
     };
 
     const savedTimeline = JSON.parse(localStorage.getItem('timeline') || '[]');
@@ -29,6 +32,7 @@ const CardDetails = () => {
     window.dispatchEvent(new Event('storage_updated'));
 
     alert(`${type} added to timeline!`);
+    toast.success(`${type} added to timeline!`);
 };
 
     return (
