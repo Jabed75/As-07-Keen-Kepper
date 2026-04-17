@@ -27,12 +27,12 @@ const Card = () => {
     return (
         <div className="p-10 bg-gray-50 min-h-screen">
            
-            <h2 className='font-bold text-4xl mb-2 text-gray-800'>Your friends</h2>
+            <h2 className='font-bold text-4xl mb-1 text-gray-800'>Your friends</h2>
             
             {loading ? (
                 <BeatLoader />
             ):(
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
     {timelines.map((timeline, ind) => {
         
         return (
